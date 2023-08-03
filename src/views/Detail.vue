@@ -1,9 +1,8 @@
 <template>
   
     <h1>Detail {{ detail.nama }}</h1>
+    <img :src="getImgSrc(detail.img)" alt="Category Image" style="width: 300px;">
     <h4>Harga : {{ detail.harga }}</h4>
-       <img :src="getImgSrc(detail.img)" alt="Category Image" style="width: 300px;">
-   
     <h4>Keterangan : {{ detail.keterangan }}</h4>
 </template>
 <script>
