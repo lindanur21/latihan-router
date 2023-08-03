@@ -1,9 +1,8 @@
 <template>
-  
     <h1>Detail {{ detail.nama }}</h1>
     <img :src="getImgSrc(detail.img)" alt="Category Image" style="width: 300px;">
     <h4>Harga : {{ detail.harga }}</h4>
-    <h4>Keterangan : {{ detail.keterangan }}</h4>
+    <h>Keterangan : {{ detail.keterangan }}</h>
 </template>
 <script>
 import { produk } from '@/assets/Produk.js'

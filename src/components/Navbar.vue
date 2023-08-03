@@ -5,6 +5,7 @@
         <li><router-link to="/Contact">Contact</router-link></li>
         <li><router-link to="/Produk">Produk</router-link></li>
         <li><router-link to="/Kategori">Kategori</router-link></li>
+        <li><router-link to="/Login">Login</router-link></li>
     </ul>
 </template> 
 <script>

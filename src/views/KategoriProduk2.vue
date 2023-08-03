@@ -1,4 +1,8 @@
 <template>
+    <div v-if="data.length == 0">
+        <h1>Produk Tidak Tersedia</h1>
+    </div>
+    <div v-else>
     <div class="flex-container">
         <div v-for="produk in data" :key="produk.id" class="card">
             <img class="img" :src="getImgSrc(produk.img)" alt="Category Image" />
@@ -6,7 +10,8 @@
                 <h4>{{ produk.nama }}</h4>
             </router-link>
         </div>
-    </div>
+        </div>
+        </div>
 </template>
 <script>
 import { produk } from '../assets/Produk';

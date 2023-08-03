@@ -100,7 +100,7 @@ export const produk = {
             'id' : 13,
             "nama" : "Gelang",
             "harga" : "200.000",
-            "id_kategori": 5,
+            "id_kategori": 50,
             "img": "gelang.jpg",
             "keterangan": "Gelang cantik sangat cocok untuk jadi hadiah ulang tahun teman, sahabat, atau pun pacar anda."
         },
@@ -108,7 +108,7 @@ export const produk = {
             'id' : 14,
             "nama" : "Cincin",
             "harga" : "350.000",
-            "id_kategori": 5,
+            "id_kategori": 50,
             "img": "cincin.jpg",
             "keterangan": "Cincin cantik dan unik untuk pernikahan atau pun pertunangan."
         },
@@ -116,7 +116,7 @@ export const produk = {
             'id' : 15,
             "nama" : "Kalung",
             "harga" : "300.000",
-            "id_kategori": 5,
+            "id_kategori": 50,
             "img": "kalung.jpg",
             "keterangan": "Kalung wanita cantik, cocok di semua usia."
         },
